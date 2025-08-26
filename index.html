@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.S.K INSTITUTE </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>M.S.K Institute</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="student.html">Student</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to MyInstitution</h2>
+    <p>Empowering Students with Knowledge & Innovation</p>
+    <a href="courses.html" class="btn">Explore Courses</a>
+  </section>
+
+  <section class="container">
+    <h2>Why Choose Us?</h2>
+    <div class="cards">
+      <div class="card"><h3>Quality Education</h3><p>Experienced faculty & modern teaching methods.</p></div>
+      <div class="card"><h3>Infrastructure</h3><p>State-of-the-art labs, libraries, and classrooms.</p></div>
+      <div class="card"><h3>Placements</h3><p>Strong industry connections & career support.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MyInstitution | All Rights Reserved</p>
+  </footer>
+  <script>
+  // Smooth Scroll
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
